@@ -1,0 +1,49 @@
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1rem;
+  border: 1px solid #d8dbe2;
+  border-radius: 0.75rem;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgb(15 23 42 / 8%);
+}
+
+.tarjeta--agotada {
+  opacity: 0.6;
+}
+
+.tarjeta__nombre {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #1f2937;
+}
+
+.tarjeta__precio {
+  margin: 0;
+  font-weight: 600;
+  color: #0f766e;
+}
+
+.tarjeta__disponibles {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.tarjeta__boton {
+  margin-top: 0.35rem;
+  padding: 0.5rem 0.9rem;
+  border: 0;
+  border-radius: 0.5rem;
+  background: #2563eb;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tarjeta__boton:disabled {
+  background: #cbd5e1;
+  color: #64748b;
+  cursor: not-allowed;
+}
